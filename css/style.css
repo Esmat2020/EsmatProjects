@@ -1,0 +1,71 @@
+.navbar-custom { 
+                background-color: rgb(243, 239, 0); 
+            } 
+            /* Modify brand and text color */ 
+              
+            .navbar-custom .navbar-brand, 
+            .navbar-custom .navbar-text { 
+                color: white; 
+            } 
+body {margin:0;}
+                .topnav {
+                  overflow: visible;
+                  background-color:rgb(243, 239, 0) ;
+                }
+
+                .topnav a {
+                  float: left;
+                  display: block;
+                  color: black;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  font-size: 17px;
+                  border-bottom: 3px solid transparent;
+                }
+
+                .topnav a:hover {
+                  border-bottom: 3px solid red;
+                }
+
+                .topnav a.active {
+                  border-bottom: 3px solid red;
+                }
+        .fa {
+              padding: 30px;
+              font-size: 25px;
+              width: 30px;
+              text-align:center;
+              text-decoration:none;
+              margin: 5px 3px;
+              border-radius: 100%;
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-facebook {
+              background: #3B5998;
+              color: white;
+            }
+
+            .fa-twitter {
+              background: #55ACEE;
+              color: white;
+            }
+
+
+            .fa-youtube {
+              background: #bb0000;
+              color: white;
+            }
+            .fa-instagram{
+              background:#125688;
+              color:white;
+            }
+            h5
+             {
+                  font-size: 30px;
+                  font-family: 'Alfa Slab One', cursive;
+              }
