@@ -20,47 +20,14 @@
               text-align: right;
               color:black;
               text-transform: uppercase;
-            }
-            #home{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-              }
-            #news{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-    
-            }
-            #contact{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-            }
-            #about{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
+              display: flex;
+                  justify-content: space-around;
+                  width: 40%;
             }
             
-          #aj{color:black;
-            font-family: 'Merienda', cursive; }
-                  #da7{ color:black;
-                    font-family: 'Merienda', cursive;}
-                  #da72{color:black;
-                    font-family: 'Merienda', cursive;}
+           
+            
+          
                   #ga{
                   background-color: rgb(0, 162, 255);
                   color: white;
@@ -96,17 +63,7 @@
                   font-family: 'Lobster', cursive;
 
                 }
-                .vl
-                {
-                  border-left: 8px solid black;
-                  height: 65px;
-                  position: absolute;
-                  left: 50%;
-                  margin-left: -670px;
-                  top: 0;
-                  margin-top: 4px;
-                  }
-                  
+                
                   p
                   {
                     font-family: 'Merienda', cursive;
@@ -184,19 +141,22 @@
   
 
             
-        <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top" >
                 <a class="navbar-brand vl" id="navName" href="home.html">
                   Al-Da7ee7 ...
                 </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="burger" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+      
+                
                       <div class="container" >
-                              
-                    
-                      <div class="collapse navbar-collapse topnav" id="navbarSupportedContent" >
+                      <div class="collapse navbar-collapse topnav " id="navbarSupportedContent" >
     
                         <ul class="navbar-nav ml-auto">
+                          
                           <li class="nav-item">
                             <a class="nav-link navbar-custom font-weight-bold active" id="home" href="home.html">Home <span class="sr-only">(current)</span></a>
                           </li>
@@ -214,17 +174,19 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item font-weight-bold" id="aj" href="about.html#aa">Aj+</a>
                               <a class="dropdown-item font-weight-bold" id="da7" href="about.html#ab">Da7ee7</a>
-                              <div class="dropdown-divider font-weight-bold"></div>
                               <a class="dropdown-item font-weight-bold" id="da72" href="about.html#ac">Da7ee7 Crew</a>
                             </div>
                           </li>
                         </ul>
+                        
                       </div>
+                      
                       </div>
+                      
                     </nav><br><br><br>
                     
       
-      <img src="da723.png" width="1520">
+      <img src="da723.png" width="1520" id="photo">
        
       <div class="jumbotron text-center custoize-jumb text-dark mb-0" id="hh">
         <audio controls autoplay>
@@ -239,12 +201,12 @@
             <a class="btn btn-warning btn-lg" href="global.html#h1" role="button" target="blank" id="az">dear vierwer one second, i am striking an example Call me to Action </a>
         </p>
       </div>
-      <img src="da790.png" width="1520">
+      <img src="da790.png" width="1520" id="photo">
 
       <div class="container text-center py-5 text-dark">
         <div class="row">
                 <div class="col-md-4 col-sm-12">
-                        <img src="da75.jpg" width="350px" height="250px" alt="">
+                        <img src="da75.jpg" width="350px" height="250px" alt="" >
                         <h4 class="display-4">Start up with Da7ee7</h4>
                         <p class="lead p-hidden" style="display: none;">you can see your Scientific project and your dream come true because of Al-Da7ee7 Fund, it's a fundrasing organization surrounded by other scientific youth, visit us and bring a copy of your project. </p>
                         <a class="btn btn-lg select-btn bg-warning" role="button" id="zz">Read More</a>
@@ -301,7 +263,7 @@
                       
         </div>
     </div>
-    <div class="container" id="yy">
+    <div class="container baba" id="yy">
       <iframe id="interactApp5e7a60261c5d6a001472d949" width="1100" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/5e7a60261c5d6a001472d949?method=iframe"></iframe>
 
     </div>
@@ -351,16 +313,16 @@
   <!--/.Indicators-->
 
   <!--Slides-->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox" >
 
     <!--First slide-->
-    <div class="carousel-item active">
-      <div class=row>
+    <div class="carousel-item active" >
+      <div class="row">
       <div class="col-md-4">
         <div class="card mb-2">
           <img class="card-img-top"
             src="Screenshot (16).png"
-            alt="Card image cap">
+            alt="Card image cap" >
           <div class="card-body">
             <h4 class="card-title">محمد ابن عوف </h4>
             <p class="card-text">العبقرى أحمد توفيق كتب مقدمة حلقة الدحيح ، فلازم تكون بالعظمة ديه</p>
@@ -490,15 +452,15 @@
 <!--/.Carousel Wrapper-->
 </div>
 <!--/.Carousel Wrapper-->
-<img src="vol2.png"> 
+<img src="vol2.png" id="photo"> 
     <div class="container">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc35s--jOJHqtfZPkbqB8JxJEUxJBPAgsZPNBS1CnajYS4m1g/viewform?embedded=true" width="1140" height="1082" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe id="photo" src="https://docs.google.com/forms/d/e/1FAIpQLSc35s--jOJHqtfZPkbqB8JxJEUxJBPAgsZPNBS1CnajYS4m1g/viewform?embedded=true" width="1140" height="1082" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
       <div id="a" class="customize-crew" >
         <div class="container py-5">
             <div class="row">
                     <div class="col-md-8 mb-2">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.37709964788!2d31.223444820824472!3d30.059483810319847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1584723941923!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      <iframe id="photo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.37709964788!2d31.223444820824472!3d30.059483810319847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1584723941923!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                     <div class="col-md-4 my-auto">
                             <div class="x ml-5">
@@ -533,7 +495,7 @@
 
   </div>
               <div class="col-md-8 mt-4" id="xy">
-                <img src="da71.jfif" height="600" width="600">
+                <img src="da71.jfif" height="600" width="600" id="photo">
               </div>
               
               
@@ -545,7 +507,7 @@
   <div class="container py-5">
       <div class="row">
         <div class="col-md-8 mt-4" >
-          <img src="da787.jpg" height="600" width="600">
+          <img src="da787.jpg" height="600" width="600" id="photo" >
         </div>
         <div class="col-md-4 my-auto">
           <div class="x ml-5">

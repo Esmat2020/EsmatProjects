@@ -13,78 +13,16 @@
         
      #navName {
               font-size: xx-large;
-              
               padding: 15px;
               text-align: left;
               font-family:  'Merienda', cursive;
               text-align: right;
               color:black;
               text-transform: uppercase;
+              display: flex;
+                  justify-content: space-around;
+                  width: 40%;
             }
-            #home{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-              }
-            #news{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-    
-            }
-            #contact{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-            }
-            #about{
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-            }
-            #projects
-            {
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-
-            }
-            #globally
-            {
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-            }
-            #league
-            {
-              font-size: large;
-              font-family: 'Merienda', cursive;
-              padding-right: 40px;
-              text-align: right;
-              color:black;
-              text-transform: uppercase;
-            }
-            #aj{color:black;font-family: 'Merienda', cursive; }
-                  #da7{ color:black;font-family: 'Merienda', cursive;}
-                  #da72{color:black;font-family: 'Merienda', cursive;}
         
               #a
               {
@@ -192,6 +130,11 @@
                   {
                     background-color: rgb(99, 47, 99);
                   }
+                  #ba
+                  {
+                    background-color: papayawhip;
+                  }
+
 
     </style>
 </head>
@@ -202,9 +145,11 @@
           <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
           Al-Da7ee7 ...
         </a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
+        <div class="burger" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
               <div class="container">
                       
             
@@ -235,7 +180,6 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item font-weight-bold" id="aj" href="about.html#aa">Aj+</a>
                       <a class="dropdown-item font-weight-bold" id="da7" href="about.html#ab">Da7ee7</a>
-                      <div class="dropdown-divider font-weight-bold"></div>
                       <a class="dropdown-item font-weight-bold" id="da72" href="about.html#ac">Da7ee7 Crew</a>
                     </div>
                   </li>
@@ -243,7 +187,7 @@
               </div>
               </div>
             </nav><br><br><br>
-            <img src="da784.png" width="1525" height="350"><br>
+            <img src="da784.png" width="1525" height="650" id="photo"><br>
       <div class="row row-cols-1 row-cols-md-3" id="univ">
         <div class="col mb-4">
           <div class="card">
@@ -378,13 +322,13 @@
             </div>
     </div>
 </div>
-<img src="da771.png" width="1520" height="350" id="m5">
+<img src="da771.png" width="1520" height="350" id="photo">
 
       <div class="accordion" id="accordionExample">
-        <div class="card">
+        <div class="card" id="ba" >
           <div class="card-header" id="h1">
             <h2 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="btn btn-link"  type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Most famous qoutes,Videos and Characteres #1
               </button>
             </h2>
@@ -392,60 +336,60 @@
       
           <div id="collapseOne" class="collapse show" aria-labelledby="h1" data-parent="#accordionExample">
               <div>
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmoatsem.omaara%2Fvideos%2F2594156164193192%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dEiS_WpFuc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="photo" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmoatsem.omaara%2Fvideos%2F2594156164193192%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+            <iframe id="photo" width="560" height="315" src="https://www.youtube.com/embed/dEiS_WpFuc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <a class="btn bg-warning" href="home.html" id="zz">press to go back</a>
         </div>
             <div class="card-body" id="card">
               Al-Da7ee7 Show full of Entartainment quotes and talks specialy the method of ahmed el-ghandor in the show makes it more entartainment and for the audeince much enjoyable 
             </div>
-            <img src="Screenshot (47).png" width="500" height="400"><img src="Screenshot (48).png" width="500" height="400"><img src="Screenshot (55).png"width="500" height="400"><br><img src="Screenshot (59).png" width="1500" height="900">
+            <img id="photo" src="Screenshot (47).png" width="500" height="400"><img id="photo" src="Screenshot (48).png" width="500" height="400"><img id="photo" src="Screenshot (55).png"width="500" height="400"><br><img id="photo" src="Screenshot (59).png" width="1500" height="900">
 
           </div>
         </div>
-        <div class="card" >
+        <div class="card" id="ba" >
           <div class="card-header" id="h2">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="btn btn-link collapsed"  type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Most famous qoutes,Videos and Characteres #2
               </button>
             </h2>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="h2" data-parent="#accordionExample">
             <div>
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbavly.victor.75%2Fvideos%2F2971381046224248%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8s3waZw1as0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="photo" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbavly.victor.75%2Fvideos%2F2971381046224248%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+            <iframe id="photo" width="560" height="315" src="https://www.youtube.com/embed/8s3waZw1as0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
             <div class="card-body" id="card">
               Al-Da7ee7 Show full of Entartainment quotes and talks specialy the method of ahmed el-ghandor in the show makes it more entartainment and for the audeince much enjoyable 
             </div>
-            <img src="Screenshot (67).png" width="500" height="400"><img src="Screenshot (65).png" width="500" height="400"><img src="Screenshot (66).png"width="500" height="400">
+            <img id="photo" src="Screenshot (67).png" width="500" height="400"><img id="photo" src="Screenshot (65).png" width="500" height="400"><img id="photo" src="Screenshot (66).png"width="500" height="400">
 
           </div>
         </div>
-        <div class="card">
+        <div class="card" id="ba">
           <div class="card-header" id="h3">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link collapsed"  type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Most famous qoutes,Videos and Characteres #3
               </button>
             </h2>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="h3" data-parent="#accordionExample">
               <div>
-                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fabood.abohmza%2Fvideos%2F3141591452595067%2F&show_text=0&width=560" width="560" height="259" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/li-aMKu4rDc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                <iframe id="photo" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fabood.abohmza%2Fvideos%2F3141591452595067%2F&show_text=0&width=560" width="560" height="259" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                <iframe id="photo" width="560" height="315" src="https://www.youtube.com/embed/li-aMKu4rDc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
             </div>
             <div class="card-body" id="card">
               Al-Da7ee7 Show full of Entartainment quotes and talks specialy the method of ahmed el-ghandor in the show makes it more entartainment and for the audeince much enjoyable 
             </div>
-            <img src="Screenshot (64).png" width="500" height="400"><img src="Screenshot (63).png" width="500" height="400"><img src="Screenshot (69).png"width="500" height="400">
+            <img id="photo" src="Screenshot (64).png" width="500" height="400"><img id="photo" src="Screenshot (63).png" width="500" height="400"><img id="photo" src="Screenshot (69).png"width="500" height="400">
 
           </div>
         </div>
       </div>
 
-      <img src="da772.png" width="1520" height="350" id="m6">
+      <img src="da772.png" width="1520" height="350" id="photo">
 
       
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -532,20 +476,20 @@
           </div>
           <div class="row">
             <div class="column">
-              <img src="da792.jpg" style="width:100%" height="550">
+              <img src="da792.jpg" style="width:100%" height="550" id="photo">
 
             </div>
             <div class="column">
-              <img src="da794.jfif" style="width:100%" height="550">
+              <img src="da794.jfif" style="width:100%" height="550" id="photo">
 
             </div>
             <div class="column">
-              <img src="da793.jpg" style="width:100%" height="550">
+              <img src="da793.jpg" style="width:100%" height="550" id="photo">
             </div>
           </div>
             
           
-          <iframe class="p-hidden7" style="display: none;" width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="photo" class="p-hidden7" style="display: none;" width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <a class="btn btn-lg select-btn7 bg-warning" role="button" id="zz" >Watch More</a> 
         </div>
 
