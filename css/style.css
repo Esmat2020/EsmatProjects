@@ -189,6 +189,7 @@
                     display: flex;
                   } 
                   
+                  
                  
               @media screen and (max-width: 1024px)
               {
@@ -207,8 +208,8 @@
   
   .navbar-nav
   {
-    position: absolute;
-    right:0px;
+    position: fixed;
+    right:5px;
     height: 88vh;
     top:13vh;
     background-image:url('da7106.jpg');
@@ -220,9 +221,13 @@
     width:50%;
     border-radius: 25px;
     color: white;
-    transition: transform 0.5s ease-in;
   }
-  
+
+  #rr
+  {
+    border-radius: 25px;
+
+  }
   #home
   {
     color: white;
