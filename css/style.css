@@ -208,6 +208,7 @@
   
   .navbar-nav
   {
+    transition: width 2s;
     position: fixed;
     right:5px;
     height: 88vh;
@@ -221,6 +222,7 @@
     width:50%;
     border-radius: 25px;
     color: white;
+    
   }
 
   #rr
@@ -259,7 +261,7 @@
   }
   .baba
   {
-    height: 350px;
+    height: 450px;
   }
   
   #aj{color: white; }
@@ -269,6 +271,7 @@
   .burger
   {
     display: block;
+    transition: 0.5s;
   }
 
  
