@@ -124,18 +124,37 @@
                   #yy
                   {
                     background-color:rgb(242, 247, 173);
+                    height: 550px;
                   }
                   #rr
                   {
                     border-radius: 25px;
 
                   }
-                  
+                  .topnav {
+                  overflow: visible ;
+                  display: flex;
+                  justify-content: space-around;
+                  width: 40%;
+                  margin-top: 50px;
+                  margin-left: 80px;
+                }
                 
-                
+                .nav-item
+                {
+                  float: left;
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  margin-top: 40px;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  font-size: 17px;
+                  border-bottom: 3px solid transparent;
+                }
 
-                  
-                          </style>
+                            
+                            </style>
           
 </head>
 
@@ -147,11 +166,42 @@
                 <a class="navbar-brand vl" id="navName" href="home.html">
                   Al-Da7ee7 ...
                 </a>
-      <div class="burger" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+      
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="topnav">
+          <ul class="nav-links ml-auto">
+                          
+            <li class="nav-item">
+              <a class="nav-link navbar-custom font-weight-bold active" id="home" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold " id="news" href="news.html">News&Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" id="contact" href="contact.html">Contact</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link font-weight-bold " id="about" href="about.html" >
+                About
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+
+      <span style="font-size:35px;cursor:pointer" class="burger1"  onclick="openNav()">&#9776; </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "48%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
       
                 
                       <div class="container" >
@@ -171,7 +221,7 @@
       
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle font-weight-bold " id="about" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              About
+                              About Us
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item font-weight-bold" id="aj" href="about.html#aa">Aj+</a>

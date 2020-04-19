@@ -85,17 +85,7 @@
                   font-family: 'Alfa Slab One', cursive;
               }
               
-              .burger
-              {
-                display: none;
-                cursor: pointer;
-              }
-              .burger div{
-                width: 25px;
-                height: 3px;
-                background-color: white;
-                margin: 5px;
-              }
+             
               #home{
                 display: flex;
                 margin-top: 10px;
@@ -188,6 +178,53 @@
                     font-family: 'Merienda', cursive;
                     display: flex;
                   } 
+                  .burger1
+                  {
+                    display: none;
+                  }
+                  .overlay {
+                    height: 90%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 1;
+                    top: 33px;
+                    right: 0;
+                    overflow-x: hidden;
+                    transition: 0.5s;
+                    border-radius:25px;
+                    background-image:url('da7106.jpg');
+                    background-size: cover;
+                    background-position: center;
+                  }
+
+                  
+                  .overlay a {
+                    padding: 8px;
+                    text-decoration: none;
+                    font-size: 36px;
+                    color: white;
+                    display: block;
+                    transition: 0.3s;
+                  }
+                  
+                  
+                  
+                  .overlay .closebtn {
+                    position: absolute;
+                    top:0px;
+                    right: 15px;
+                    font-size: 60px;
+                  }
+                  
+                  @media screen and (max-height: 450px) {
+                    .overlay a {font-size: 20px}
+                    .overlay .closebtn {
+                    font-size: 40px;
+                    top: 25px;
+                    right: 15px;
+                    }
+                    
+                  }
                   
                   
                  
@@ -206,24 +243,42 @@
 {
   
   
-  .navbar-nav
-  {
-    transition: width 2s;
-    position: fixed;
-    right:5px;
-    height: 88vh;
-    top:13vh;
-    background-image:url('da7106.jpg');
-    background-size: cover;
-    background-position: center;
+ 
+  .topnav {
+    overflow: visible ;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:50%;
-    border-radius: 25px;
-    color: white;
-    
+    justify-content: space-around;
+    width: 40%;
+    margin-top: 5px;
+    margin-left: 80px;
   }
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+
+  .topnav a.active {
+    border-bottom: 3px solid red;
+  }
+  
+  .nav-item
+  {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 5px;
+    border-bottom: 3px solid transparent;
+
+  }
+  .nav-links
+  {
+    list-style: none;
+  }
+  
+  
 
   #rr
   {
@@ -271,7 +326,10 @@
   .burger
   {
     display: block;
-    transition: 0.5s;
+  }
+  .burger1
+  {
+    display: block;
   }
 
  
