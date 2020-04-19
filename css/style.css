@@ -188,7 +188,7 @@
                     position: fixed;
                     z-index: 1;
                     top: 33px;
-                    right: 0;
+                    right: 1px;
                     overflow-x: hidden;
                     transition: 0.5s;
                     border-radius:25px;
@@ -266,10 +266,11 @@
     display: block;
     color: white;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 5px;
+
     border-bottom: 3px solid transparent;
 
   }
@@ -292,6 +293,8 @@
   #news
   {
     color: white;
+    margin-right: 40px;
+
   }
   #contact
   {
@@ -314,9 +317,10 @@
   {
     color: white;
   }
-  .baba
+
+  #news
   {
-    height: 450px;
+    padding-right: 0px;
   }
   
   #aj{color: white; }
