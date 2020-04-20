@@ -321,18 +321,7 @@
   {
     padding-right: 0px;
   }
-  #univ
-  {
-    flex-direction: column;
-    width: 103%;
-    height: 100%;
-  }
-  #photo2
-  {
-      width: 100%;
-      height: 100%;
-      flex-direction: column;
-  }
+  
   
   #aj{color: white; }
   #da7{color: white;}
