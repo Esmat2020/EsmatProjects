@@ -324,6 +324,7 @@
   #univ
   {
     flex-direction: column;
+    width: 103%;
   }
   
   #aj{color: white; }
