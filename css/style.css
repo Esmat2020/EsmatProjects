@@ -321,7 +321,16 @@
   {
     padding-right: 0px;
   }
-  
+  #univ
+                {
+                  padding-top: 100px;
+                  padding-left: 70px;
+                  padding-right: 70px;
+                  padding-bottom: 30px;
+                  background-image: url('da786.jfif');
+                  width: 105%;
+                  height: 100%;
+                }
   
   #aj{color: white; }
   #da7{color: white;}
