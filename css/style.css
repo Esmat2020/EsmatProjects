@@ -267,7 +267,7 @@
     display: block;
     color: white;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 5px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 5px;
@@ -320,6 +320,10 @@
   #news
   {
     padding-right: 0px;
+  }
+  #univ
+  {
+    flex-direction: column;
   }
   
   #aj{color: white; }
