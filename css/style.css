@@ -13,18 +13,7 @@
                   background-color: rgb(243, 239, 0); 
 
                 }
-                #navName {
-                  font-size: xx-large;
-                  padding: 15px;
-                  text-align: left;
-                  font-family:  'Merienda', cursive;
-                  text-align: right;
-                  color:black;
-                  text-transform: uppercase;
-                  display: flex;
-                      justify-content: space-around;
-                      width: 40%;
-                }
+                
                 p
                     {
                       font-size: 20px;
@@ -296,11 +285,7 @@
     list-style: none;
   }
   
-  #navName
-                {
-                  font-family: 'Ramabhadra', sans-serif;
 
-                }
 
   #rr
   {
